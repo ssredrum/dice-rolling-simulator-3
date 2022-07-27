@@ -1,0 +1,22 @@
+import random  # for actions with random numbers
+import os #  provides functions for creating and removing a directory
+
+print("Welcome to the dice rolling simulator\nLet\'s roll the dice!")  # familiarization string
+
+print("Your dice!")  # first dice
+num1 = random.randint(1,6)  # random number from 1 to 6
+print(num1) # 2 second delay
+
+if num1 == 1: # if value 'num1' is 1, it will be printed dice with side that show 1
+        os.startfile('D:/dice1.jpg')
+if num1 == 2: # if value 'num1' is 2, it will be printed dice with side that show 2
+        os.startfile('D:/dice2.jpg')
+if num1 == 3: # if value 'num1' is 3, it will be printed dice with side that show 3
+        os.startfile('D:/dice3.jpg')
+if num1 == 4: # if value 'num1' is 4, it will be printed dice with side that show 4
+        os.startfile('D:/dice4.jpg')
+if num1 == 5: # if value 'num1' is 5, it will be printed dice with side that show 5
+        os.startfile('D:/dice5.jpg')
+if num1 == 6: # if value 'num1' is 6, it will be printed dice with side that show 6
+        os.startfile('D:/dice6.jpg')
+
